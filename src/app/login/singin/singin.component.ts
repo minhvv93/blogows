@@ -30,8 +30,6 @@ export class SinginComponent implements OnInit {
     //console.log(val.password);
     if(val.email==="minhvv" && val.password==="1234"){
       console.log('ban dang nhap thanh cong');
-      let dk = false;
-      this.service.setdk(dk);
       this.router.navigateByUrl("")
     }else{
       alert("user chua ton tai , dk ngay")

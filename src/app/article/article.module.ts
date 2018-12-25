@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NewarticleComponent } from './newarticle/newarticle.component';
+import { DetailarticleComponent } from './detailarticle/detailarticle.component';
 
 @NgModule({
-  declarations: [NewarticleComponent],
+  declarations: [DetailarticleComponent],
   imports: [
     CommonModule
   ]

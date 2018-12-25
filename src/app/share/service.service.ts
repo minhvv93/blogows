@@ -17,12 +17,5 @@ export class ServiceService {
     //console.log(email);
    return email;
   }
-  setdk(dk){
-    this.dk = dk;
-  }
-  getdk(){
-    let dk1 = this.dk
-    return dk1;
-  }
 
 }

@@ -42,7 +42,7 @@ export class LayoutComponent implements OnInit {
   this.router.navigateByUrl('')
   }
   newarticle(){
-    alert("tao bai viet moi")
+    this.router.navigate(["/newarticle"]);
   }
   setting(){
     alert("seting")

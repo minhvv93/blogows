@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import {SinginComponent} from '../../login/singin/singin.component';
 import {SingupComponent} from '../../login/singup/singup.component';
 import {HomeComponent} from '../../home/home/home.component'
+import {NewarticleComponent} from '../../article/newarticle/newarticle.component';
 
 @NgModule({
   declarations: [],
@@ -22,6 +23,10 @@ import {HomeComponent} from '../../home/home/home.component'
       {
         path : '',
         component : HomeComponent
+      },
+      {
+        path : 'newarticle',
+        component : NewarticleComponent
       }
     ])
 

@@ -14,6 +14,8 @@ import { LoginModule } from './login/login.module';
 import { SinginComponent } from './login/singin/singin.component';
 import { SingupComponent } from './login/singup/singup.component';
 import { AppRoutingModule } from './share/app-routing/app-routing.module'
+import {NewarticleComponent} from './article/newarticle/newarticle.component';
+import {ArticleModule} from './article/article.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,8 @@ import { AppRoutingModule } from './share/app-routing/app-routing.module'
     HomeComponent,
     LayoutComponent,
     SinginComponent,
-    SingupComponent
+    SingupComponent,
+    NewarticleComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +33,8 @@ import { AppRoutingModule } from './share/app-routing/app-routing.module'
     LoginModule,
     FormsModule,
     ReactiveFormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ArticleModule
 
 
   ],
